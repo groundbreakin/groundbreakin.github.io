@@ -13,9 +13,33 @@
 	#Page Styles
 	#Media Queries
 	#Font-Face */
+	
+	@import url("../fonts/fonts.css");
+
 
 /* #Site Styles
 ================================================== */
+.masked{
+background: url(../img/paint.png) repeat, white;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-animation-name: masked-animation;
+-webkit-animation-duration: 40s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes masked-animation {
+0% {background-position: left bottom;}
+100% {background-position: right bottom;}
+}
+
+
+.logo{ 
+font-family:'NovecentowideBookBold';
+font-size: 500%;
+line-height: 400%;
+text-align: center;
+}
 
 /* #Page Styles
 ================================================== */
@@ -46,13 +70,5 @@
 		copy your FontName into code below and remove
 		comment brackets */
 
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
+	    
+	
