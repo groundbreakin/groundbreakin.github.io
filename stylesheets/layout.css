@@ -39,6 +39,9 @@ font-family:'NovecentowideBookBold';
 font-size: 500%;
 line-height: 400%;
 text-align: center;
+  
+   -webkit-text-stroke: 2px #cb4f22;
+  
 }
 
 /* #Page Styles
