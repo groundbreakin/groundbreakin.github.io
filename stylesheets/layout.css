@@ -80,7 +80,7 @@ font-weight: 500;
 	
 	/* Larger than standard 960 (devices and browsers) */
 	@media only screen and (min-width: 959px) {
-			html {border: .75em solid #cb4f22;}
+			html {border: .80em solid #cb4f22;}
 
 	}
 
