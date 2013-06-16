@@ -35,11 +35,21 @@ background: url(../img/paint.png) repeat, white;
 
 
 .logo{ 
-font-family:'NovecentowideBookBold';
-font-size: 500%;
+font-family:'OstrichSansBold';
+font-size: xx-large;
 line-height: 400%;
 text-align: center;
-   
+font-weight: 500;   
+}
+
+.punch{
+	text-align: center;
+	margin-bottom: 20px !important;
+	margin-top: 20px !important;
+}
+
+.footer{
+	text-align: center;
 }
 
 /* #Page Styles
@@ -49,7 +59,12 @@ text-align: center;
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+			html {border-top: .50em  #cb4f22 outset;
+					border-bottom: .50em  #cb4f22 outset;
+			}
+
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
@@ -62,6 +77,12 @@ text-align: center;
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {}
+	
+	/* Larger than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 959px) {
+			html {border: .75em solid #cb4f22;}
+
+	}
 
 
 /* #Font-Face
