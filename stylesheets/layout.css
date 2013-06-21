@@ -19,6 +19,16 @@
 
 /* #Site Styles
 ================================================== */
+::selection {
+	color: white;
+	background: #cb4f22; /* Safari */
+	}
+::-moz-selection {
+	color: white;
+	background: #cb4f22; /* Firefox */
+}
+
+
 .masked{
 background: url(../img/paint.png) repeat, white;
 -webkit-text-fill-color: transparent;
