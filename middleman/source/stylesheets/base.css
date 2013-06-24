@@ -244,7 +244,7 @@
 #small-dialog {
 	background: #74A599;
 	padding: 20px 30px;
-	text-align: center;
+	text-align: center !important;
 	max-width: 300px;
 	margin: 40px auto;
 	position: relative;
