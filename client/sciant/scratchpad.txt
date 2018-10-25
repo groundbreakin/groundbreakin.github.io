@@ -1,0 +1,10 @@
+find - <p class="copyPera">© 2018 Sciant. All Rights Reserved.
+              www.sciant.com</p>
+
+replace ---
+
+
+<div class="col-lg-12 text-center">
+<p class="copyPera">© 2018 Sciant. All Rights Reserved.</p>
+<small>www.sciant.com \ design by groundbreak.in</small>
+          </div>

@@ -1,0 +1,716 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Bespoke - Creative One Page HTML5 Template
+    / ALL CSS
+    %link{:href => "css/bootstrap.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/font-awesome.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/owl.carousel.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/owl.theme.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/animate.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/slick.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/flaticon.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/settings.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "https://fonts.googleapis.com/icon?family=Material+Icons", :rel => "stylesheet"}/
+    %link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/preset.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/responsive.css", :rel => "stylesheet", :type => "text/css"}/
+    /[if lt IE 9]
+      <script src="js/html5shiv.js"></script>              <script src="js/respond.min.js"></script>
+    / Favicon Icon
+    %link{:href => "images/favicon.png", :rel => "icon", :type => "image/png"}/
+    / Favicon Icon
+  %body
+    / PRELOADER START
+    .preloader
+      .loader
+        %img{:alt => "", :src => "images/loader.gif"}/
+    / PRELOADER END
+    / HEADER START
+    %header#header.header.isSticky
+      .container-fluid
+        .row
+          .col-sm-2.noPaddingLeft
+            .logo
+              %a{:href => "index.html"}
+                %img{:alt => "", :src => "images/logo.png"}/
+            .logo.logoText.hidden
+              %h1
+                %a{:href => "index.html"} bespoke
+            .stickyLogo
+              %a{:href => "index.html"}
+                %img{:alt => "", :src => "images/flogo.png"}/
+          .col-md-8
+            %nav.mainMenu
+              .mobileBar
+                %span
+                %span
+                %span
+              %ul
+                %li.scroll.has-menu-items.active
+                  %a{:href => "#slider"} Home
+                  %ul.sub-menu
+                    %li
+                      %a{:href => "index.html"} Home One
+                    %li
+                      %a{:href => "index2.html"} Home Two
+                    %li
+                      %a{:href => "index3.html"} Home Three
+                %li.scroll
+                  %a{:href => "#about"} About us
+                %li.scroll
+                  %a{:href => "#team"} Team
+                %li.scroll
+                  %a{:href => "#whatwe"} What we do
+                %li.scroll
+                  %a{:href => "#ourwork"} Work
+                  %ul.sub-menu
+                    %li
+                      %a{:href => "work-detail.html"} Work Details
+                %li.scroll.has-menu-items
+                  %a{:href => "#blog"} Blog
+                  %ul.sub-menu
+                    %li
+                      %a{:href => "blog-list.html"} Blog list
+                    %li
+                      %a{:href => "blog-detail.html"} Blog Details
+                %li.scroll
+                  %a{:href => "#contact"} Get in touch
+          .col-md-2.hidden-sm.md_class.noPaddingRight
+            .callus
+              %p
+                call us
+                %b 1.800.987.6987
+    / HEADER END
+    / SLIDER START
+    %section#slider.slider.slider2
+      .tp-banner
+        %ul
+          %li{"data-masterspeed" => "1000", "data-slotamount" => "7", "data-transition" => "cube"}
+            %img{:alt => "", :src => "shutter/stock-photo-business-corporation-organization-teamwork-concept-412176508.jpg"}/
+            .tp-caption.sfb{"data-easing" => "easeInOutCubic", "data-hoffset" => "0", "data-speed" => "1600", "data-start" => "1000", "data-voffset" => "-40", "data-x" => "center", "data-y" => "center"}
+              .revCon
+                %h5.text-uppercase.color_white
+                  modernize and unlock
+                  existing systems and applications
+            .tp-caption.sfb{"data-easing" => "Power4.easeOut", "data-hoffset" => "0", "data-speed" => "2000", "data-start" => "1500", "data-voffset" => "35", "data-x" => "center", "data-y" => "center"}
+              .revCon
+                %h2.lead.color_white Simplify complex systems
+            .tp-caption.sfb{"data-easing" => "Power4.easeOut", "data-hoffset" => "0", "data-speed" => "2000", "data-start" => "2000", "data-voffset" => "148", "data-x" => "center", "data-y" => "center"}
+              .revCon.revBtn.home_page2
+                %a.bes_button2{:href => "#"}
+                  %span
+                    Learn
+                    more about us
+                    %i.flaticon-arrows
+      .mouseSlider
+        %a.normal{:href => "#team"}
+          %img{:alt => "", :src => "images/mouse.png"}/
+        %a.hover{:href => "#team"}
+          %img{:alt => "", :src => "images/mouseh2.png"}/
+    / SLIDER END
+    / ABOUT START
+    %section#about.about.about2
+      .perelaxBg1
+      .aboutTop.home_page2
+        .container
+          .row
+            .col-lg-12
+              .abcontentT
+                %h5.text-uppercase.magenta.bold discover sciant
+                %h3.lead.light
+                  We provide enterprise integration
+                  solutions that
+                  %br/
+                  unlock the value of existing systems.
+      .abBigtitle.home_page2
+        %h1.lead Create.Integrate.Deliver
+      .aboutBottom.home_page2
+        .perelaxBg2
+        .container
+          .row
+            .col-lg-12.text-left
+              .abcontentB.noPadding
+                .row
+                  .col-lg-5
+                    %h5.lead.bold
+                      We take a bottom-line approach to each
+                      project.
+                  .col-lg-7
+                    %h3.light
+                      Our clients consistently see increased
+                      traffic, enhanced brand loyalty and new leads thanks to
+                      our work.
+      .ourServices
+        .container
+          .row
+            .col-sm-3
+              .singleService
+                .serImg
+                  %img{:alt => "", :src => "images/services/1.png"}/
+                %h6.lead.text-uppercase.bold fintech
+                %p
+                  Every project is different and that means the approach must
+                  be as well.
+                %a.learn{:href => "#"} Learn more
+            .col-sm-3
+              .singleService
+                .serImg
+                  %img{:alt => "", :src => "images/services/2.png"}/
+                %h6.lead.text-uppercase.bold logistics
+                %p
+                  We help brands connect to their audience through shared
+                  values and interests.
+                %a.learn{:href => "#"} Learn more
+            .col-sm-3
+              .singleService
+                .serImg
+                  %img{:alt => "", :src => "images/services/3.png"}/
+                %h6.lead.text-uppercase.bold hospitality
+                %p
+                  We build a team around your needs and provide our clients
+                  with direct access to everyone.
+                %a.learn{:href => "#"} Learn more
+            .col-sm-3
+              .singleService
+                .serImg
+                  %img{:alt => "", :src => "images/services/3.png"}/
+                %h6.lead.text-uppercase.bold automative
+                %p
+                  We build a team around your needs and provide our clients
+                  with direct access to everyone.
+                %a.learn{:href => "#"} Learn more
+            .clearfix
+            .col-lg-12.text-center
+              %a.bes_button2{:href => "#"}
+                Learn
+                more about us
+                %i.flaticon-arrows
+    / ABOUT END
+    / TEAM START
+    %section#team.team
+      .container
+        .row
+          .col-lg-12
+            .sectionTitle.epr200
+              %h5.magenta.text-uppercase.bold meet the management team
+              %h3.lead Powerful services for your modern digital needs.
+        .row
+          .teamTop
+            .col-sm-6
+              .teamBig
+                %img{:alt => "", :src => "images/team/1b.jpg"}/
+            .col-sm-6
+              #testmonial.testmonial
+                .singleTestm
+                  %p
+                    We work with big brands and agencies through to small
+                    businesses and startups in Kent and beyond.
+                  .teamDeg
+                    %h4.magenta Evlogi Georgiev
+                    %p CEO, Sciant Technologies
+            .clearfix
+        .row
+          .col-sm-3.sm_class
+            .singleTeam
+              %img{:alt => "", :src => "images/team/1.jpg"}/
+              .teamDeg
+                %h4 Stephen Burke
+                %p SVP, Travel &amp; Hospitality
+          .col-sm-3.sm_class
+            .singleTeam
+              %img{:alt => "", :src => "images/team/2.jpg"}/
+              .teamDeg
+                %h4 Joel Stevens
+                %p Digital Producer
+          .col-sm-3.sm_class
+            .singleTeam
+              %img{:alt => "", :src => "images/team/3.jpg"}/
+              .teamDeg
+                %h4 Marah Houlihan
+                %p Senior Account Manager
+          .col-sm-3.sm_class
+            .singleTeam
+              %img{:alt => "", :src => "images/team/4.jpg"}/
+              .teamDeg
+                %h4 David Dennis
+                %p Head of Operations
+    / TEAM END
+    / WHAT WE DO START
+    %section#whatwe.whatwe.home_page2
+      .container
+        .row
+          .col-lg-10.col-lg-offset-1.text-center
+            .wedoContent
+              %h5.text-uppercase.color_white.bold what we do
+              %h2.lead.color_white
+                we help businesses evolve
+                %span &amp;
+                grow.
+              %a.bes_button2{:href => "#"}
+                Learn more about us
+                %i.flaticon-arrows
+    / WHAT WE DO END
+    / OUR WORK START
+    %section#ourwork.ourwork
+      .container
+        .row
+          .col-lg-12.text-center
+            .sectionTitle.bigTitle
+              %h5.magenta.text-uppercase.bold
+                our transformative
+                products
+              %h2.lead we create masterpieces.
+              %p
+                We believe in coming up with original ideas and turning them
+                into digital work that is both innovative and measurable.
+      .container-fluid
+        .row
+          .col-sm-8.noPadding
+            .single_folio.single_folio2
+              %a{:href => "work-detail.html"}
+                .polioThumb
+                  .overlayHover
+                  %img{:alt => "", :src => "images/work/h2/1.jpg"}/
+              .folio_hover2
+                %h6.color_yellow.text-uppercase.bold Recent Casestudy
+                %h3.lead.color_white.semi_Bold Adventure Begins Here.
+                .workTag
+                  %a{:href => "#", :tabindex => "0"}> Branding
+                  \/
+                  %a{:href => "#", :tabindex => "0"}
+                    Web
+                    Design
+                %a.work_btn{:href => "work-detail.html"}
+                  %i.flaticon-arrows
+          .col-sm-4.noPadding
+            .single_folio.single_folio2
+              %a{:href => "work-detail.html"}
+                .polioThumb
+                  .overlayHover
+                  %img{:alt => "", :src => "images/work/h2/2.jpg"}/
+              .folio_hover2
+                %h6.color_yellow.text-uppercase.bold Recent Casestudy
+                %h3.lead.color_white.semi_Bold Design The Future
+                .workTag
+                  %a{:href => "#", :tabindex => "0"}> Branding
+                  \/
+                  %a{:href => "#", :tabindex => "0"}
+                    Web
+                    Design
+                %a.work_btn{:href => "work-detail.html"}
+                  %i.flaticon-arrows
+          .col-sm-4.noPadding
+            .single_folio.single_folio2
+              %a{:href => "work-detail.html"}
+                .polioThumb
+                  .overlayHover
+                  %img{:alt => "", :src => "images/work/h2/3.jpg"}/
+              .folio_hover2
+                %h6.color_yellow.text-uppercase.bold Recent Casestudy
+                %h3.lead.color_white.semi_Bold Design The Future
+                .workTag
+                  %a{:href => "#", :tabindex => "0"}> Branding
+                  \/
+                  %a{:href => "#", :tabindex => "0"}
+                    Web
+                    Design
+                %a.work_btn{:href => "work-detail.html"}
+                  %i.flaticon-arrows
+          .col-sm-4.noPadding
+            .single_folio.single_folio2
+              %a{:href => "work-detail.html"}
+                .polioThumb
+                  .overlayHover
+                  %img{:alt => "", :src => "images/work/h2/4.jpg"}/
+              .folio_hover2
+                %h6.color_yellow.text-uppercase.bold Recent Casestudy
+                %h3.lead.color_white.semi_Bold Design The Future
+                .workTag
+                  %a{:href => "#", :tabindex => "0"}> Branding
+                  \/
+                  %a{:href => "#", :tabindex => "0"}
+                    Web
+                    Design
+                %a.work_btn{:href => "work-detail.html"}
+                  %i.flaticon-arrows
+          .col-sm-4.noPadding
+            .single_folio.single_folio2
+              %a{:href => "work-detail.html"}
+                .polioThumb
+                  .overlayHover
+                  %img{:alt => "", :src => "images/work/h2/5.jpg"}/
+              .folio_hover2
+                %h6.color_yellow.text-uppercase.bold Recent Casestudy
+                %h3.lead.color_white.semi_Bold Design The Future
+                .workTag
+                  %a{:href => "#", :tabindex => "0"}> Branding
+                  \/
+                  %a{:href => "#", :tabindex => "0"}
+                    Web
+                    Design
+                %a.work_btn{:href => "work-detail.html"}
+                  %i.flaticon-arrows
+    / OUR WORK END
+    / CHOOSE US START
+    %section#chooseus.chooseus.home_page2
+      .perelaxBg3
+      .container
+        .row
+          .col-lg-12.text-center
+            .sectionTitle.bigTitle2
+              %h5.magenta.text-uppercase.bold why choose us?
+              %h2.lead we dont just build websites, we build brands.
+        .row
+          .col-lg-5
+            .chooseUsContent
+              %h3.magenta.normal
+                Our team works shoulder-to- shoulder,
+                ensuring a project is never created in isolation.
+              %p
+                Every project has its own unique goals and vision. Whatever
+                your project demands, our extended network of strategists,
+                creatives and technology specialists is always eager to pitch
+                in. We know it helps to know good people.
+              .signatureandname
+                %h4 Richie Meldrum
+                %img{:alt => "", :src => "images/signature.jpg"}/
+          .col-lg-7
+            .imagesDiv.chooseUsImg
+              %img{:alt => "", :src => "images/choose.jpg"}/
+    / CHOOSE US END
+    / TESTMONIAL START
+    %section#testmonialSec.testmonialSec.home_page2.overlayw10
+      .perelaxBg4
+      .container
+        .row
+          .col-lg-12
+            #testmonialCaro.home_page2
+              .singleTestmn
+                %p
+                  There are design companies, and then there are user
+                  experience, design, consulting, interface design, brilliant,
+                  and professional. By far one of the worlds best known brands.
+                .testAut
+                  %h4 Jack Lawson
+                  %p New york - USA
+              .singleTestmn
+                %p
+                  There are design companies, and then there are user
+                  experience, design, consulting, interface design, brilliant,
+                  and professional. By far one of the worlds best known brands.
+                .testAut
+                  %h4 Jack Lawson
+                  %p New york - USA
+              .singleTestmn
+                %p
+                  There are design companies, and then there are user
+                  experience, design, consulting, interface design, brilliant,
+                  and professional. By far one of the worlds best known brands.
+                .testAut
+                  %h4 Jack Lawson
+                  %p New york - USA
+    / TESTMONIAL END
+    / CLIENT START
+    %section#client.client.home_page2
+      .perelaxBg5
+      .container
+        .row
+          .col-lg-12.text-center
+            .sectionTitle.bigTitle3
+              %h5.text-uppercase.bold who we worked for
+              %h2.lead Our client experience
+        .row
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/1.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/2.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/3.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/4.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/5.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/6.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/7.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/8.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/9.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/10.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/11.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/12.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/13.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/14.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/15.jpg"}/
+          .col-lg-3.col-sm-4
+            .singleClient
+              %a{:href => "#"}
+                %img{:alt => "", :src => "images/client/16.jpg"}/
+    / CLIENT END
+    / BLOG START
+    %section#blog.blogSection.home_page2
+      .container
+        .row
+          .col-lg-12.text-center
+            .sectionTitle.bigTitle2
+              %h5.text-uppercase.bold BLOGS AND INSIGHTS
+              %h2.lead Our thoughts
+        .row
+          .col-sm-4.noPadding
+            .singleBlog
+              .blogThumb
+                %img{:alt => "", :src => "images/blog/1.jpg"}/
+              .blogDec
+                .blogDate December, 20, 2016
+                %h2.blogTitle
+                  %a{:href => "blog-detail.html"}
+                    How to Approach
+                    Social Media as a Small Business.
+                .bperaDiv
+                  %p
+                    Everti doctus est et, ei vis habemus tibique. Scriptorem
+                    theophrastus in sit. Stet gubergren ex per, denique
+                    consetetur cotidieque ad nec.
+                .blogBott
+                  .bauthor
+                    By
+                    %a{:href => "#"} John Doe
+                  .blogComs
+                    %img{:alt => "", :src => "images/comment.png"}/
+                    %a{:href => "#"}
+                      2
+                      Comments
+          .col-sm-4.noPadding
+            .singleBlog
+              .blogThumb
+                %img{:alt => "", :src => "images/blog/2.jpg"}/
+              .blogDec
+                .blogDate December, 20, 2016
+                %h2.blogTitle
+                  %a{:href => "blog-detail.html"}
+                    Have there been
+                    any good startups founded since 2016?
+                .bperaDiv
+                  %p
+                    Elit facer constituto ex vis, te vide pereu rationibus nec.
+                    Nec iriure commune fastidii.
+                .blogBott
+                  .bauthor
+                    By
+                    %a{:href => "#"} John Doe
+                  .blogComs
+                    %img{:alt => "", :src => "images/comment.png"}/
+                    %a{:href => "#"}
+                      2
+                      Comments
+          .col-sm-4.noPadding
+            .singleBlog
+              .blogThumb
+                %img{:alt => "", :src => "images/blog/3.jpg"}/
+              .blogDec
+                .blogDate December, 20, 2016
+                %h2.blogTitle
+                  %a{:href => "blog-detail.html"}
+                    Design &amp;
+                    Usability From A Marketing Perspective.
+                .bperaDiv
+                  %p
+                    Corpora explicari as reeqe intel legam temporibus in eum,
+                    te ius recusabo argumentum repudiandae.
+                .blogBott
+                  .bauthor
+                    By
+                    %a{:href => "#"} John Doe
+                  .blogComs
+                    %img{:alt => "", :src => "images/comment.png"}/
+                    %a{:href => "#"}
+                      2
+                      Comments
+    / BLOG END
+    / SAY HELLO START
+    %section#sayhello.sayhello
+      .container
+        .row
+          .col-lg-12.text-center
+            .sectionTitle.bigTitle2
+              %h5.text-uppercase.bold we would love to hear from you
+              %h2.lead say hello!
+        .row
+          .col-sm-4
+            .singleSay.saypaddingR.text-center
+              .sayThumb
+                %img{:alt => "", :src => "shutter/sofia.jpg"}/
+                %h3.text-uppercase Sofia, Bulgaria
+              .sayDec
+                %h6.bold.text-uppercase sofia office
+                %p 70 Greenview Ave.
+                %p Temple Hills, MD 20748
+                %h6.bold 1.800.987.6543
+          .col-sm-4
+            .singleSay.saypaddingl.text-center
+              .sayThumb
+                %img{:alt => "", :src => "shutter/czech.jpg"}/
+                %h3.text-uppercase Olomouc, Czech Republic
+              .sayDec
+                %h6.bold.text-uppercase olomouc office
+                %p 70 Greenview Ave.
+                %p Temple Hills, MD 20748
+                %h6.bold 1.800.987.6543
+          .col-sm-4
+            .singleSay.saypaddingl.text-center
+              .sayThumb
+                %img{:alt => "", :src => "shutter/macedonia.jpg"}/
+                %h3.text-uppercase Strumica, Macedonia
+              .sayDec
+                %h6.bold.text-uppercase strumica office
+                %p 70 Greenview Ave.
+                %p Temple Hills, MD 20748
+                %h6.bold 1.800.987.6543
+    / SAY HELLO END
+    / CONTACT START
+    %section#contact.contact.home_page2
+      .container
+        .row
+          .col-lg-12.text-center
+            .contactInner
+              %h3.magenta.light Have a question? or just say hello!
+              .contactForm
+                %form#contactForm{:action => "#", :method => "post"}
+                  .row
+                    .col-sm-6
+                      .single_form.home_page2
+                        %label{:for => "con_name"} Name:
+                        %input#con_name.required{:name => "con_name", :type => "text"}/
+                    .col-sm-6
+                      .single_form.home_page2
+                        %label{:for => "con_phone"} Phone:
+                        %input#con_phone.required{:name => "con_phone", :type => "text"}/
+                    .col-sm-6
+                      .single_form.home_page2
+                        %label{:for => "con_email"} Email:
+                        %input#con_email.required{:name => "con_email", :type => "email"}/
+                    .col-sm-6
+                      .single_form.home_page2
+                        %label{:for => "con_company"} Company:
+                        %input#con_company.required{:name => "con_company", :type => "text"}/
+                    .col-sm-12
+                      .single_form.home_page2
+                        %label{:for => "con_msg"} Message:
+                        %textarea#con_msg.required{:name => "con_msg"}
+                    .col-sm-12.text-center
+                      %input#con_submit.bes_button2{:type => "submit", :value => "SEND"}/
+    / CONTACT END
+    / FOOTER START
+    %footer#footer.footer.bggreay
+      .container-fluid
+        .row
+          .col-sm-6
+            %aside.widget
+              .textWidget
+                .flogow
+                  .flogo
+                    %a{:href => "index.html"}
+                      %img{:alt => "", :src => "images/flogo.png"}/
+                  .logo.logoText.hidden
+                    %h1
+                      %a{:href => "index.html"} Sciant
+                %h3.widgetTitle
+                  About
+                  %b sciant
+                %p
+                  We help you bring the quality to the next level, avoid
+                  delays, speed time-to-market, and reduce costs with full range
+                  of testing services that covers the testing through the entire
+                  project development lifecycle.
+                .socialIcon
+                  %a.fb{:href => "#"}
+                    %i.fa.fa-facebook
+                  %a.li{:href => "#"}
+                    %i.fa.fa-linkedin
+          .col-sm-6
+            %aside.widget
+              .newsletterwid
+                %h3.widgetTitle Contact
+                .fooInfo
+                  %p
+                    %i.flaticon-pin
+                    %b Head office:
+                    Sofia Tech
+                    Park, 111B Tzarigradsko Shouse, Floor 1 ,Sofia 1784,
+                    Bulgaria
+                  %p
+                    %i.flaticon-technology
+                    %b 1.800.987.6543
+    / FOOTER END
+    / COPY RIGHT START
+    %section.copyright
+      .container
+        .row
+          .col-lg-12.text-center
+            %p.copyPera
+              © 2018 Sciant. All Rights Reserved.
+              www.sciant.com
+    / COPY RIGHT END
+    .subscriptionSuccess
+      .subsNotice
+        %i.fa.fa-thumbs-o-up.closers
+        .clearfix
+        %p.closers Subscription Request Successfully placed!
+    .contactSuccess
+      .consNotice
+        %i.fa.fa-thumbs-o-up.closers
+        .clearfix
+        %p.closers Your Message successfully sent!
+    / ALL JS
+    %script{:src => "js/jquery.js", :type => "text/javascript"}
+    %script{:src => "js/bootstrap.js", :type => "text/javascript"}
+    %script{:src => "js/owl.carousel.js", :type => "text/javascript"}
+    %script{:src => "js/slick.js", :type => "text/javascript"}
+    %script{:src => "js/jquery.themepunch.revolution.min.js", :type => "text/javascript"}
+    %script{:src => "js/jquery.themepunch.tools.min.js", :type => "text/javascript"}
+    %script{:src => "js/jquery.parallax-1.1.3.js", :type => "text/javascript"}
+    %script{:src => "js/jquery.localscroll-1.2.7-min.js", :type => "text/javascript"}
+    %script{:src => "js/jquery.scrollTo-1.4.2-min.js", :type => "text/javascript"}
+    %script{:src => "js/theme.js", :type => "text/javascript"}
