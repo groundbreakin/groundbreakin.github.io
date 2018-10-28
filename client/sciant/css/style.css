@@ -2421,3 +2421,9 @@
 #opener{
     background: url('../shutter/tech-texture.jpg');
 }
+
+#about-opener{
+    background: url('../shutter/photo-team.jpg');
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
