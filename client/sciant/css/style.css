@@ -2427,3 +2427,17 @@
     padding-top: 180px;
     padding-bottom: 180px;
 }
+
+.verticalCenter{
+    vertical-align: middle;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.productCenter{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
