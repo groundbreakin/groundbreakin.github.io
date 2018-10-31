@@ -163,7 +163,7 @@ h6{
     height: auto;
 }
 blockquote {
-    border-left: 2px solid #fd0060;
+    border-left: 2px solid #2E609C;
     margin: 60px 0 50px;
     padding: 0 65px 0 20px;
 }
@@ -258,13 +258,11 @@ blockquote p{
 [05] TEMPLATE BUTTON STYLE
 =========================================================================*/
 .bes_button{
-    background: -moz-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(35%, #36146a), color-stop(46%, #581068), color-stop(50%, #640E67), color-stop(100%, #ff0060)); /* safari4+,chrome */
-    background: -webkit-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: -o-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: -ms-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: linear-gradient(92deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36146a', endColorstr='#ff0060',GradientType=1 );
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
     height: 50px;
     border-radius: 30px;
     display: inline-block;
@@ -283,13 +281,13 @@ blockquote p{
     top: 2px;
 }
 .bes_button:hover{
-    background: -moz-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fd0060), color-stop(50%, #9B0A65), color-stop(100%, #3a146a));
-    background: -webkit-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%);
-    background: -o-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
-    background: -ms-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
-    background: linear-gradient(90deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd0060', endColorstr='#3a146a',GradientType=1 );
+    background: -moz-linear-gradient(90deg, #160AFF 0%, #1A1359 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A1359), color-stop(100%, #160AFF)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, #160AFF 0%, #1A1359 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, #160AFF 0%, #1A1359 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #160AFF 0%, #1A1359 100%); /* ie10+ */
+    background: linear-gradient(0deg, #160AFF 0%, #1A1359 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1A1359', endColorstr='#160AFF',GradientType=0 ); /* ie6-9 */
     color: #fff;
 }
 .bes_button2{

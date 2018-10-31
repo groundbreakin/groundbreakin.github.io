@@ -1501,7 +1501,7 @@
     padding-bottom: 9px;
 }
 .wdhContent h6 {
-    color: #fa0060;
+    color: #234976;
     font-weight: 600;
     margin-bottom: 11px;
     text-transform: uppercase;
@@ -1513,7 +1513,7 @@
     line-height: 70px;
 }
 .wdhContent h6 a{
-    color: #fa0060;
+    color: #234976;
 }
 .wdhContent h6 a:hover{
     color: #000;
@@ -1820,13 +1820,13 @@
     transform: translateY(-50%);
 }
 .BdContent h6 {
-    color: #fa0060;
+    color: #234976;
     font-weight: 600;
     margin-bottom: 11px;
     text-transform: uppercase;
 }
 .BdContent h6 a{
-    color: #fa0060; 
+    color: #234976; 
 }
 .BdContent h6 a:hover{
     color: #fff;
@@ -2440,4 +2440,8 @@
     position: absolute;
     top: 25%;
     left: 5%;
+}
+
+.callus a{
+    color: #3670b6;
 }
