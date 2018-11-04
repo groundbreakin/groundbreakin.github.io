@@ -2445,3 +2445,42 @@
 .callus a{
     color: #3670b6;
 }
+
+#enterprise{
+background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+#legacy{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+#productdev{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+#maintainance{
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+#solution{
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+#interface{
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+#rollout{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+#devops{
+    background-image: linear-gradient(to top, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+}
+
+#akurata{
+    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
+
+#qualismatic{
+    background-image: linear-gradient(to top, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);
+}
